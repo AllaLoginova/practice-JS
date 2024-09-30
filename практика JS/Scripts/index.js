@@ -17,7 +17,7 @@ function generateFooter (title, navItems, bgcolor, fontcolor) {
     document.write(
         `<div class="footer" style="background-color:${bgcolor}">`+
         `<h1 id="title" style="color: ${fontcolor}">${title}</h1>`+
-        `${result}`+ `<div class="line-copyright"><pre>@${title.toLowerCase()}, ${new Date().getFullYear() + 3}</pre></div>` +
+        `${result}`+ `<div class="line-copyright"><pre>© ${title.toLowerCase()}, ${new Date().getFullYear() + 3}</pre></div>` +
        `</div>`)
     }
 
